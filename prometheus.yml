@@ -7,4 +7,4 @@ scrape_configs:
     metrics_path: /prometheus
     static_configs:
       - targets:
-          - "test-cougarcs-backend.herokuapp.com"
+          - "backend.cougarcs.com"
