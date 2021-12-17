@@ -8,3 +8,10 @@ scrape_configs:
     static_configs:
       - targets:
           - "backend.cougarcs.com"
+          
+remote_write:
+  - url: https://prometheus-prod-10-prod-us-central-0.grafana.net/api/prom/push
+    basic_auth:
+      username: 281432
+      password: eyJrIjoiNGNiYWE5MmFlYTAzM2IzYzE5MTk0NGJjMDY2MTFlNDA0M2YyYjA0ZSIsIm4iOiJ0ZXN0IiwiaWQiOjU3ODUwNX0=
+      
